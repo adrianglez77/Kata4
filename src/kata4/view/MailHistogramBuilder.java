@@ -12,6 +12,5 @@ public class MailHistogramBuilder {
                 histogram.increment(mail.getDomain());            
             }
             return histogram;        
-    }
-     
+    }   
 }
